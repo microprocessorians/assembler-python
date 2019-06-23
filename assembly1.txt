@@ -1,0 +1,15 @@
+nop
+ahmed:nop
+nop
+nop
+[r1+34h] = r14
+r5 = [ r4 + 56h]
+push r01
+out r8
+in r7
+r01 << r02
+r01 >>> r02
+bne r00 , r01,ahmed
+;hi 
+call ahmed
+ret
